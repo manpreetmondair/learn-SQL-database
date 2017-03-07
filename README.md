@@ -1,4 +1,4 @@
- 1: ###### How many users are there?
+ ## 1: How many users are there?
 
 select count(id) from users;
 
@@ -18,7 +18,7 @@ Awesome Granite Pants|9790
 Sleek Wooden Hat|9390
 Ergonomic Steel Car|9341
 
- ###### 3:  What's the cheapest book? (Does that change for "category is exactly 'book'" versus "category contains 'book'"?)
+ ###### 3: What's the cheapest book? (Does that change for "category is exactly 'book'" versus "category contains 'book'"?)
 
 select title,category,price from items where category='Books' order by price asc limit 1;
 
