@@ -1,4 +1,4 @@
- ###### 1: How many users are there?
+ 1: ###### How many users are there?
 
 select count(id) from users;
 
